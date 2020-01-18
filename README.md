@@ -1,10 +1,11 @@
 # aoc2019
 
-A Clojure library designed to ... well, that part is up to you.
+Me finally working on the 2019 Advent of Code challenges.
 
 ## Usage
 
-FIXME
+https://adventofcode.com/2019/day/1
+
 
 ## License
 

@@ -1,6 +1,5 @@
-(ns aoc2019.core)
+(ns aoc2019.core
+  (:require [aoc2019.day01]))
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(defn -main []
+  (print (aoc2019.day01/doit)))

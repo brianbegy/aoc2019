@@ -1,6 +1,6 @@
 (ns aoc2019.core
-  (:require [aoc2019.day01a]))
+  (:require [aoc2019.day01]))
 
 (defn -main
   []
-  (print (aoc2019.day01a/doit)))
+  (print (aoc2019.day01/doSimpleChallenge)))

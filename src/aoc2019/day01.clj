@@ -4,12 +4,6 @@
             [clojure.math.numeric-tower :as math]
             [aoc2019.helpers :as helpers]))
 
-(defn getInput
-  []
-  (map #(Integer/parseInt %)
-       (clojure.string/split-lines
-        (slurp "data/day01.txt"))))
-
 (defn calculateModuleFuel
   [module]
   (- (math/floor (/ module 3)) 2))

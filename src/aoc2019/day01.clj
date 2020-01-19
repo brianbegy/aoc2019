@@ -1,6 +1,8 @@
 (ns aoc2019.day01
   "day 1 problems"
-  (:require [clojure.string] [clojure.math.numeric-tower :as math]))
+  (:require [clojure.string]
+            [clojure.math.numeric-tower :as math]
+            [aoc2019.helpers :as helpers]))
 
 (defn getInput
   []
@@ -16,4 +18,4 @@
   []
   (reduce
    (fn [c, m] (+ c (calculateModuleFuel m)))
-   0 (getInput)))
+   0 (helpers/getArrayOfIntegersFromFile "data/day01.txt")))
